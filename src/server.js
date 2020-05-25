@@ -18,6 +18,6 @@ server.use(express.json())
 server.use(rotas)
 
 //aqui estou criando a porta de entrada do servidor
-server.listen(3333);
+server.listen(process.env.PORT || 3333);
 
 
