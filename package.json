@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "aprendendo backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaimeAcacio/Teste.git"
+  },
+  "author": "jaime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaimeAcacio/Teste/issues"
+  },
+  "homepage": "https://github.com/JaimeAcacio/Teste#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
